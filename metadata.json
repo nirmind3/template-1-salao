@@ -1,0 +1,6 @@
+{
+  "name": "Seu Salão",
+  "description": "Cardápio exclusivo de cortes e serviços do Seu Salão com agendamento direto pelo WhatsApp e painel administrativo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

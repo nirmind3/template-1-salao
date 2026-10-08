@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'DM Sans', 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #F5F5F4;
+    background-color: #0C0A09;
+  }
+
+  h1, h2, h3, h4, .font-serif-luxury, .font-display {
+    font-family: 'Fraunces', 'Italiana', Georgia, serif;
+    font-feature-settings: "liga", "clig";
+  }
+}
+
+/* Subtle editorial utility classes */
+.tracking-eyebrow {
+  letter-spacing: 0.12em;
+}
+
+.shadow-lift {
+  box-shadow: 0 10px 25px -4px rgba(245, 158, 11, 0.12), 0 4px 10px -2px rgba(0, 0, 0, 0.6);
+}
+
+.shadow-card-hover {
+  box-shadow: 0 14px 30px -4px rgba(245, 158, 11, 0.18), 0 8px 16px -2px rgba(0, 0, 0, 0.8);
+}
+
+
